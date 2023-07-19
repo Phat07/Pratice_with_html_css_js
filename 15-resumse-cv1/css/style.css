@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #161616;
+  font-family: 'Lekton', sans-serif;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  height: 90vh;
+  background-color: aquamarine;
+  margin: auto;
+  margin-top: 5vh;
+  display: flex;
+  align-items: start;
+}
+
+nav {
+  width: 72px;
+  background: #222222;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+nav li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+nav li:last-child {
+  border: none;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.85);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+nav a span {
+  display: block;
+}
+
+.profile {
+  width: 480px;
+  background-color: bisque;
+  height: 100%;
+  position: relative;
+}
+
+.profile .info {
+  text-align: center;
+  position: relative;
+}
+
+.profile .info-content {
+  /* cach 1 */
+  transform: translateY(-70px);
+
+  /* cach 2 */
+  /* background-color: aliceblue;
+  position: absolute;
+  width: 100%;
+  color: black;
+  left: 0;
+  bottom: 0; */
+}
+
+.profile .avatar {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin: auto;
+}
+
+.profile .action {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: blue;
+  display: flex;
+}
+
+.profile .action button {
+  flex: 1;
+}
+
+
+.content {
+  background-color: goldenrod;
+  height: 100%;
+  overflow: auto;
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+/* .profile {
+  width: 480px;
+  height: 100%;
+  background-color: bisque;
+  position: relative;
+  background-color: #222222;
+  border-radius: 4px;
+}
+
+.profile .action {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+
+.profile .action button {
+  flex: 1;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 16px;
+  background-color: transparent;
+  color: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.profile .action button:first-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile .info-content {
+  text-align: center;
+  transform: translateY(-80px);
+}
+
+.profile .avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 1px solid #31313A;
+  margin: auto;
+} */

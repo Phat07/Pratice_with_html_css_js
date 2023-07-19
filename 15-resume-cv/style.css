@@ -1,0 +1,275 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: bisque;   
+}
+.container{
+    width: 1200px;
+    height: 90vh;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    background-color: aqua;
+}
+.content{
+    width: 72px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 51vh;
+    border-radius: 5px;
+}
+i{
+    display: block;
+}
+ul{
+    list-style: none;
+}
+nav ul li{
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+p{
+    font-size: 12px;
+}
+.content2{
+    width: 480px;
+    margin-left: 8px;
+    position: relative;
+    background-color: cadetblue;
+}
+.img{
+    width: 100%;
+    
+}
+.img img{
+    width: 100%;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+
+.content3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+    color: white;
+}
+.content3 img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: -10px 9px 0 orange;
+}
+.content3 h2{
+    text-align: center;
+}
+.content3 p{
+    padding-top: 5px;
+}
+.content2 .footer button{
+    flex: 1;
+}
+.content4{
+    background-color: olivedrab;
+    height: 100%;
+    overflow: auto;
+    flex: 1;
+    position: relative;
+    padding-left: 20px;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+/* track:  */
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px green;
+    border-radius: 5px;
+}
+/* handle */
+::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: steelblue;
+}
+.cn_1{
+    position: absolute;
+    top: 10px;
+}
+.bt1{
+    position: absolute;
+    left: 1px;
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    background-color: rgba(246, 184, 70, 0.4);
+    border-radius: 50%;
+}
+.bt2{
+    position: absolute;
+    top: 0;
+    width: 100px;
+    left: 20px;
+}
+.cn_2{
+    background-color: black;
+    width: 90%;
+    text-align: center;
+    height: 1px;
+    position: absolute;
+    top: 40px;
+}
+.cn_3 {
+    position: absolute;
+    top: 60px;
+}
+.cn_3 p{
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 15px;
+}
+.cn_5{
+    position: absolute;
+    left: 20px;
+}
+.bt3{
+    position: absolute;
+    left: 1px;
+    top: 250px;
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    background-color: rgba(246, 184, 70, 0.4);
+    border-radius: 50%;
+}
+.bt4{
+    position: absolute;
+    top: 250px;
+    width: 100px;
+    left: 20px;
+}
+.cn_6{
+    background-color: black;
+    width: 90%;
+    text-align: center;
+    height: 1px;
+    position: absolute;
+    top: 280px;
+}
+.cn_7{
+    position: absolute;
+    top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cn_7 .a1{
+    width: 280px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-right: 15px;
+}
+.cn_7 .a1 p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.bt5{
+    position: absolute;
+    left: 1px;
+    top: 600px;
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    background-color: rgba(246, 184, 70, 0.4);
+    border-radius: 50%;
+}
+.bt6{
+    position: absolute;
+    top: 600px;
+    width: 100px;
+    left: 20px;
+}
+.cn_8{
+    position: absolute;
+    left: 20px;
+}
+.cn_9{
+    display: flex;
+    position: absolute;
+    top: 640px;
+    left: 80px;
+    justify-content: center;
+}
+.cn_9 img{
+    border: 2px solid black;
+    width: 120px;
+    border-inline-start-style: none ;
+    border-bottom: green;
+    border-inline-end-width: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bt7{
+    position: absolute;
+    left: 1px;
+    top: 750px;
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    background-color: rgba(246, 184, 70, 0.4);
+    border-radius: 50%;
+}
+.bt8{
+    position: absolute;
+    top: 750px;
+    width: 100px;
+    left: 20px;
+}
+.cn_10{
+    position: absolute;
+    left: 20px;
+}
+.cn_11{
+    background-color: black;
+    width: 90%;
+    text-align: center;
+    height: 1px;
+    position: absolute;
+    top: 640px;
+}
+.cn_11{
+    background-color: black;
+    width: 90%;
+    text-align: center;
+    height: 1px;
+    position: absolute;
+    top: 780px;
+}
+.cn_13{
+    display: flex;
+    position: absolute;
+    top: 800px;
+    padding-left: 20px;
+    
+}
+.cn_13 div i{
+    display: block;
+    margin-left: 20px;
+}

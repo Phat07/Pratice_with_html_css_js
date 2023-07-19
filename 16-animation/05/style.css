@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  background-color: gold;
+  position: relative;
+  /* border-left: 0px solid red; */
+}
+
+.line-left {
+  width: 5px;
+  height: 0;
+  background-color: red;
+  transition: 1s;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  
+}
+.line-right{
+  width: 5px;
+  height: 0;
+  background-color: red;
+  transition: 1s;
+  transition-delay: 1s;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.line-top{
+  width: 0;
+  height: 5px;
+  background-color: red;
+  transition: 1s;
+  transition-delay: 0.5s;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.line-bottom{
+  width: 0;
+  height: 5px;
+  background-color: red;
+  transition: 1s;
+  transition-delay: 1.5s;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.box:hover .line-left {
+  height: 100%;
+}
+.box:hover .line-right{
+  height: 100%;
+}
+.box:hover .line-top {
+  width:100%;
+}
+.box:hover .line-bottom {
+  width:100%;
+}
